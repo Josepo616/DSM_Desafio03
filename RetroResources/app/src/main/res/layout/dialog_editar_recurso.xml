@@ -1,0 +1,38 @@
+<!-- dialog_editar_recurso.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/editTextRecursoEnlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL del Recurso" />
+
+    <EditText
+        android:id="@+id/editTextImagenEnlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL de la Imagen" />
+
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <EditText
+        android:id="@+id/editTextTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo" />
+
+</LinearLayout>

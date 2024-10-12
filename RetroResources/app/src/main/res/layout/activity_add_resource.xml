@@ -1,0 +1,45 @@
+<!-- activity_add_resource.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/etEnlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL del Recurso" />
+
+    <EditText
+        android:id="@+id/etImagenEnlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL de la Imagen" />
+
+    <EditText
+        android:id="@+id/etTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Recurso" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <Button
+        android:id="@+id/btnAddResource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir Recurso" />
+</LinearLayout>
+
+
