@@ -1,45 +1,69 @@
 <!-- activity_add_resource.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background_color"
     android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_title"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/buttons"
+        android:gravity="center" />
 
     <EditText
         android:id="@+id/etNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nombre" />
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintColor"
+        android:hint="@string/name_resource" />
 
     <EditText
         android:id="@+id/etEnlace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="URL del Recurso" />
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/black"
+        android:hint="@string/url_resource" />
 
     <EditText
         android:id="@+id/etImagenEnlace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="URL de la Imagen" />
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/black"
+        android:hint="@string/img_resource" />
 
     <EditText
         android:id="@+id/etTipo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Tipo de Recurso" />
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/black"
+        android:hint="@string/type_resource" />
 
     <EditText
         android:id="@+id/etDescripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Descripción" />
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/black"
+        android:hint="@string/description_resource" />
 
     <Button
         android:id="@+id/btnAddResource"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Añadir Recurso" />
+        android:backgroundTint="@color/buttons"
+        android:textColor="@color/white"
+        android:text="@string/add_recurso" />
 </LinearLayout>
 
 
