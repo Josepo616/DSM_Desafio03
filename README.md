@@ -1,7 +1,8 @@
-DESAFIO 3 DSM
-JOSÉ ROLANDO ÁLVAREZ MEJÍA AM232553
-DIEGO ENRIQUE CANJURA ESTRADA CE221950
+Desafio 3 DSM
 
-NOMBRE DE LA APLICACIÓN: RetroResources
+José Rolando Álvarez Mejia AM232553
+Diego Enrique Canjura Estrada CE221950
 
-VIDEO:https://drive.google.com/file/d/1c6TS9Ied_VfKPQC_1szcKlrDnS57xdiQ/view?usp=sharing
+Nombre de la aplicación: RetroResources
+
+Video:https://drive.google.com/file/d/1c6TS9Ied_VfKPQC_1szcKlrDnS57xdiQ/view?usp=sharing
