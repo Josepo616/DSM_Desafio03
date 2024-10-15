@@ -1,4 +1,16 @@
 <resources>
+    <!-- Activity_main -->
     <string name="app_name">RetroResource</string>
     <string name="add_recurso">Añadir Recurso</string>
+    <string name="welcome">Bienvenido a RetroRources!</string>
+    <string name="buscar">Buscar...</string>
+    <string name="error">Error de conexión, verifique su red y recargue nuevamente la aplicación</string>
+
+    <!-- Activity_add_resource -->
+    <string name="name_resource">Nombre</string>
+    <string name="url_resource">URL del recurso</string>
+    <string name="img_resource">URL de la imagen</string>
+    <string name="type_resource">Tipo de recurso</string>
+    <string name="description_resource">Descripción</string>
+    <string name="add_title">Añade un nuevo recurso</string>
 </resources>
