@@ -3,36 +3,37 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="@color/background_color"
     android:padding="16dp">
 
     <EditText
         android:id="@+id/editTextNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nombre" />
+        android:hint="@string/name_resource" />
 
     <EditText
         android:id="@+id/editTextRecursoEnlace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="URL del Recurso" />
+        android:hint="@string/url_resource" />
 
     <EditText
         android:id="@+id/editTextImagenEnlace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="URL de la Imagen" />
+        android:hint="@string/img_resource" />
 
     <EditText
         android:id="@+id/editTextDescripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Descripción" />
+        android:hint="@string/description_resource" />
 
     <EditText
         android:id="@+id/editTextTipo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Tipo" />
+        android:hint="@string/type_resource" />
 
 </LinearLayout>
